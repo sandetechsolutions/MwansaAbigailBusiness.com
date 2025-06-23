@@ -21,7 +21,7 @@ Mwansa operates in Lusaka and offers both nail and makeup services by appointmen
 - **Makeup Appointments:** +260973649011 (Call or WhatsApp)
 - **Nail Appointments:** +260771942435 (Call or WhatsApp)
 
-## 🔗 Live Preview
+## 🔗 Official Website
 
 [View Website – mm.html](./mm.html)
 
