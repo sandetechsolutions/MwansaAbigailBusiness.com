@@ -7,7 +7,6 @@
 <p align="center">
   <a href="mm.html">Make Your Order from Here</a>
 </p>
----
 
 <p align="center">
 Mwansa Abigail ©2025 | Sande Tech Solutions
