@@ -33,7 +33,6 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
 
-    /* === SOCIAL ICONS === */
     .social-icons {
       margin: 20px;
       text-align: center;
@@ -47,7 +46,6 @@
       height: 40px;
     }
 
-    /* === GALLERY SHOWCASE === */
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -70,7 +68,6 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     }
 
-    /* === PACKAGE SECTION === */
     .packages {
       padding: 40px 20px;
       background: #fff;
@@ -110,18 +107,20 @@
       margin-bottom: 10px;
     }
 
-    .package-card p {
-      font-size: 14px;
-      margin-bottom: 15px;
+    .package-card label {
+      font-weight: bold;
+      display: block;
+      margin-top: 8px;
+      margin-bottom: 5px;
     }
 
-    .package-card input[type="number"] {
-      width: 80px;
+    .package-card input {
+      margin-bottom: 12px;
       padding: 8px;
-      text-align: center;
       border-radius: 5px;
       border: 1px solid #ff69b4;
-      margin-bottom: 15px;
+      width: 80%;
+      text-align: center;
     }
 
     .book-btn {
@@ -139,7 +138,6 @@
       background: linear-gradient(135deg, #c71585, #ff69b4);
     }
 
-    /* === FLOATING EFFECT === */
     @keyframes float {
       0% { transform: translateY(0px); }
       50% { transform: translateY(-8px); }
@@ -170,17 +168,15 @@
   <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="TWITTER"></a>
 </div>
 
-<!-- FULL GALLERY SHOWCASE -->
+<!-- GALLERY -->
 <h2 style="text-align:center; color:#c71585;">OUR WORKS SHOWCASE</h2>
 <div class="gallery">
-  <!-- Nails -->
   <img src="a.jpeg" alt="NAIL 1">
   <img src="aa.jpeg" alt="NAIL 2">
   <img src="aaa.jpeg" alt="NAIL 3">
   <img src="d.jpeg" alt="NAIL 4">
   <img src="dd.jpeg" alt="NAIL 5">
   <img src="ddd.jpeg" alt="NAIL 6">
-  <!-- Makeup -->
   <img src="b.jpeg" alt="MAKEUP 1">
   <img src="bb.jpeg" alt="MAKEUP 2">
   <img src="bbb.jpeg" alt="MAKEUP 3">
@@ -189,7 +185,7 @@
   <img src="ccc.jpeg" alt="MAKEUP 6">
 </div>
 
-<!-- PACKAGES & BOOKINGS -->
+<!-- PACKAGES -->
 <section class="packages">
   <h2>OUR PACKAGES & BOOKINGS</h2>
   <div class="package-grid">
@@ -198,8 +194,12 @@
     <div class="package-card">
       <h3>SINGLE CLIENT PACKAGE</h3>
       <p>PERFECT FOR INDIVIDUAL CLIENTS LOOKING FOR A PERSONAL MAKEUP OR NAIL SESSION.</p>
-      <label>NUMBER OF PEOPLE:</label><br>
+      <label>NUMBER OF PEOPLE:</label>
       <input type="number" min="1" value="1"><br>
+      <label>DATE:</label>
+      <input type="date"><br>
+      <label>TIME:</label>
+      <input type="time"><br>
       <a href="https://wa.me/260973649011?text=I%20WANT%20TO%20BOOK%20A%20SINGLE%20CLIENT%20PACKAGE." class="book-btn" target="_blank">BOOK NOW</a>
     </div>
 
@@ -207,8 +207,12 @@
     <div class="package-card">
       <h3>WEDDING PACKAGE</h3>
       <p>EXCLUSIVE PACKAGE FOR BRIDES AND THEIR TEAM. FULL NAILS & MAKEUP INCLUDED.</p>
-      <label>NUMBER OF PEOPLE:</label><br>
+      <label>NUMBER OF PEOPLE:</label>
       <input type="number" min="1" value="1"><br>
+      <label>DATE:</label>
+      <input type="date"><br>
+      <label>TIME:</label>
+      <input type="time"><br>
       <a href="https://wa.me/260771942435?text=I%20WANT%20TO%20BOOK%20A%20WEDDING%20PACKAGE." class="book-btn" target="_blank">BOOK NOW</a>
     </div>
 
@@ -216,8 +220,12 @@
     <div class="package-card">
       <h3>ARTIST PACKAGE</h3>
       <p>DESIGNED FOR MUSICIANS, MODELS, OR PERFORMERS PREPARING FOR SHOWS & SHOOTS.</p>
-      <label>NUMBER OF PEOPLE:</label><br>
+      <label>NUMBER OF PEOPLE:</label>
       <input type="number" min="1" value="1"><br>
+      <label>DATE:</label>
+      <input type="date"><br>
+      <label>TIME:</label>
+      <input type="time"><br>
       <a href="https://wa.me/260973649011?text=I%20WANT%20TO%20BOOK%20AN%20ARTIST%20PACKAGE." class="book-btn" target="_blank">BOOK NOW</a>
     </div>
 
